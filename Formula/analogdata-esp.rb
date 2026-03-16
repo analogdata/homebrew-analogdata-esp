@@ -24,7 +24,7 @@
 class AnalogdataEsp < Formula
   desc "ESP-IDF project scaffolding and AI agent for embedded engineers"
   homepage "https://github.com/analogdata/analogdata-esp"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   # ── Platform-specific prebuilt tarballs ───────────────────────────────────
@@ -33,8 +33,8 @@ class AnalogdataEsp < Formula
   on_macos do
     if Hardware::CPU.arm?
       # Apple Silicon (M1/M2/M3/M4)
-      url "https://github.com/analogdata/analogdata-esp/releases/download/v0.1.0/analogdata-esp-macos-arm64-v0.1.0.tar.gz"
-      sha256 "e594866793f6894f4a22e168aa75d6227678d8793f56a93202581d9e0d4de4d6"
+      url "https://github.com/analogdata/analogdata-esp/releases/download/v0.2.0/analogdata-esp-macos-arm64-v0.2.0.tar.gz"
+      sha256 "737fbd7d85223830ac555d9ec929b37ea53625c7b12b2292337f681a35380d48"
     else
       # Intel Mac
       url "https://github.com/analogdata/analogdata-esp/releases/download/v0.1.0/analogdata-esp-macos-x86_64-v0.1.0.tar.gz"
