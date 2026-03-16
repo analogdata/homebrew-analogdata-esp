@@ -34,7 +34,7 @@ class AnalogdataEsp < Formula
     if Hardware::CPU.arm?
       # Apple Silicon (M1/M2/M3/M4)
       url "https://github.com/analogdata/analogdata-esp/releases/download/v0.2.0/analogdata-esp-macos-arm64-v0.2.0.tar.gz"
-      sha256 "a7c94baef46df49986cb708677731df4539e3b0a3f2280b9a335a72f01fc4f8e"
+      sha256 "2a79eb646bf9f50dbde8504fb0ef87f938e86c341dc260b7dcc2c89cd51e2489"
     else
       # Intel Mac
       url "https://github.com/analogdata/analogdata-esp/releases/download/v0.1.0/analogdata-esp-macos-x86_64-v0.1.0.tar.gz"
